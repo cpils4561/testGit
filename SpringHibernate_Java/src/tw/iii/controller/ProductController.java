@@ -19,7 +19,7 @@ public class ProductController {
 	private ProductService pService;
 	private HttpSession session;
 	
-	
+	//測試一下修改後的我
 	//全部查詢
 	@RequestMapping(path = "/selectAll",method = RequestMethod.POST)
 	public String entryAction(Model m) {
